@@ -1,6 +1,6 @@
 /*const array = [
   { first: [{ name: "bhushan", age: "29" }] },
-  { second: [{ name: "sourabh", age: "25" }] },
+  { second: [{ name: "patil", age: "25" }] },
   { third: [{ name: "abhi", age: "22" }] },
 ];*/
 const array = [
