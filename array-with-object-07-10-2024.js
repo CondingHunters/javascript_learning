@@ -18,7 +18,7 @@ const array = [
     ],
   },
 ];
-const printNameValue = (valueToPrint) => {
+const printMessage = (valueToPrint) => {
   console.log(valueToPrint);
 };
 const data = array.map((item) => {
@@ -43,12 +43,12 @@ const data = array.map((item) => {
     item[objectKey].map((objectKeyValue, objectKeyValueIndex) => {
       if (objectKey == "fruits") {
         if (objectKeyValueIndex === 3) {
-          printNameValue(objectKeyValue.fruitName);
+          printMessage(objectKeyValue.fruitName);
         } else {
-          printNameValue(objectKeyValue.name);
+          printMessage(objectKeyValue.name);
         }
       } else {
-        printNameValue(objectKeyValue.name);
+        printMessage(objectKeyValue.name);
       }
     });
   });
